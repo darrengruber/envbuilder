@@ -1,0 +1,12 @@
+.git
+.gitignore
+.DS_Store
+.vscode/
+.idea/
+docs/
+integration/
+examples/
+scripts/
+**/*.png
+**/*.svg
+
