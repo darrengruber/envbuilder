@@ -25,7 +25,7 @@ RUN --mount=type=cache,target=/root/.cache/go-build \
 
 
 # Final, minimal image
-FROM gcr.io/distroless/static:nonroot
+FROM scratch
 
 ENV KANIKO_DIR=/.envbuilder
 
